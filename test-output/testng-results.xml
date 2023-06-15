@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-09T04:45:41Z" name="Default suite" finished-at="2023-06-09T05:18:32Z" duration-ms="1971540">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.runner.Runner@67d18ed7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-06-09T04:45:41Z" name="Default test" finished-at="2023-06-09T05:18:32Z" duration-ms="1971540">
+      <class name="org.runner.Runner">
+        <test-method is-config="true" signature="allureReportCleanup()[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T04:45:37Z" name="allureReportCleanup" finished-at="2023-06-09T04:45:41Z" duration-ms="4050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allureReportCleanup -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T04:45:41Z" name="setUpClass" finished-at="2023-06-09T04:45:42Z" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T04:45:42Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T04:46:00Z" duration-ms="17956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Validate SalesIntel Orchestration Login Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Application SalesIntel Orchestration Login Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T04:46:00Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T04:46:02Z" duration-ms="2715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Validate SalesIntel Orchestration Logout Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Application SalesIntel Orchestration Login Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T04:46:02Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T04:46:06Z" duration-ms="3912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Validate SalesIntel Orchestration Login Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Application SalesIntel Orchestration Upload And Verify The Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T04:46:06Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T04:46:31Z" duration-ms="24774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Validate SalesIntel Orchestration Upload CSV File Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Application SalesIntel Orchestration Upload And Verify The Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T04:46:31Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T04:46:44Z" duration-ms="13218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Validate SalesIntel Orchestration Uploaded CSV File Functionality After Submitting"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Application SalesIntel Orchestration Upload And Verify The Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T04:46:44Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T04:47:04Z" duration-ms="19980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Validate SalesIntel Orchestration Search Activity Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Application SalesIntel Orchestration Upload And Verify The Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T04:47:04Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T04:47:11Z" duration-ms="6321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Validate SalesIntel Orchestration Process Status Information Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Application SalesIntel Orchestration Upload And Verify The Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T04:47:11Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T04:57:35Z" duration-ms="624086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Validate SalesIntel Orchestration Search Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Application SalesIntel Orchestration Upload And Verify The Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T04:57:35Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T05:02:55Z" duration-ms="320220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Validate SalesIntel Orchestration Search Activity After Submitting the Tasks and 5 minutes of wait Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Application SalesIntel Orchestration Upload And Verify The Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T05:02:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T05:03:01Z" duration-ms="6501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Validate SalesIntel Orchestration Process Status Information After Submitting the Tasks and 5 minutes of wait Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Application SalesIntel Orchestration Upload And Verify The Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T05:03:01Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T05:18:24Z" duration-ms="922937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Validate SalesIntel Orchestration Search Activity After Submitting the Tasks and 15 minutes of wait Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Application SalesIntel Orchestration Upload And Verify The Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T05:18:24Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T05:18:31Z" duration-ms="6435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Validate SalesIntel Orchestration Process Status Information After Submitting the Tasks and 15 minutes of wait Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Application SalesIntel Orchestration Upload And Verify The Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T05:18:31Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T05:18:31Z" duration-ms="557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Validate SalesIntel Orchestration Logout Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Application SalesIntel Orchestration Upload And Verify The Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T05:18:31Z" name="tearDownClass" finished-at="2023-06-09T05:18:32Z" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="cucumberReportGenerate()[pri:0, instance:org.runner.Runner@67d18ed7]" started-at="2023-06-09T05:18:32Z" name="cucumberReportGenerate" finished-at="2023-06-09T05:18:34Z" duration-ms="1857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cucumberReportGenerate -->
+      </class> <!-- org.runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

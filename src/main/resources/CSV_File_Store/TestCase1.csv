@@ -1,0 +1,22 @@
+contactId,linkedInCorrect,linkedInUrl,firstName,lastName,title,email,companyName,companyDomain,personalEmail,isInternational,tier,charlieData
+258424,,linkedin.com/in/wafa-abdelati-3776527,Wafa,Abdelati,"Senior Advisor, OED, IMF",wabdelati@imf.org,International Monetary Fund,imf.org,,FALSE,0,"{
+ ""linkedin_url"": ""linkedin.com/in/wafa-abdelati-3776527"",
+ ""firstName"": ""Wafa"",
+ ""lastName"": ""Abdelati"",
+ ""company"": ""International Monetary Fund"",
+ ""company_domain"": ""imf.org"",
+ ""company_linkedin_url"": ""https://www.linkedin.com/company/international-monetary-fund/"",
+ ""headlineTitle"": ""Senior Advisor, OED, IMF"",
+ ""location"": ""Hingham, Massachusetts"",
+ ""countryCode"": ""United States"",
+ ""connections"": 100,
+ ""previousExperience"": [{
+   ""company"": ""International Monetary Fund"",
+   ""company_domain"": ""imf.org"",
+   ""title"":""Senior Advisor, OED, IMF"",
+   ""jobStart"": 201807,
+   ""jobEnd"": 999999,
+   ""company_linkedin_url"": ""https://www.linkedin.com/company/international-monetary-fund/""
+  }
+ ]
+}"
