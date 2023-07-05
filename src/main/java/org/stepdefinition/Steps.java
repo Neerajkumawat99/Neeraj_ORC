@@ -20,6 +20,7 @@ import org.testng.Assert;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+//import sun.jvm.hotspot.debugger.Page;
 
 public class Steps extends Global {
 	public static WebDriver driver;
@@ -393,4 +394,53 @@ public class Steps extends Global {
 
 		log.info("Waited For 15 Minutes");
 	}
+
+	@When("Click On New Contact Button")
+	public void click_on_new_contact_button() throws Throwable
+	{
+		clickButton(Page_Object_Manager.getInstance().getHome_Page().GetNewContactLabel());
+		log.info("Clicked On New Contact() Options");
 }
+	@When("Enter Job Name In New Contact Job Page")
+	public void Enter_job_name() throws Throwable {
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			throw new RuntimeException(e);
+		}
+		String date_Format = new SimpleDateFormat("dd-M-yyyy hh:mm:ss").format(new Date());
+		try {
+			job_Name = retrieveDataFromJson(
+					System.getProperty("user.dir") + "\\src\\main\\resources\\Test_Data\\Json_Data.json", "Upload_File",
+					"File_Name") + " " + date_Format;
+		} catch (IOException | ParseException e) {
+			throw new RuntimeException(e);
+		}
+		System.out.println("File Name from Job Name Filed:" + job_Name);
+		enterData(Page_Object_Manager.getInstance().getHome_Page().getJob_Name_Text_Field(), job_Name);
+		log.info("Entered The Job Name In New Contact Job Page");
+
+	}
+
+	@When("Select Priority")
+	public void Select_Priority() throws Throwable{
+		clickButton(Page_Object_Manager.getInstance().getHome_Page().SelectPriority());
+		log.info("Selected High priority");
+	}
+
+
+	@When("Select On Screen Entry")
+	public void Select_On_Screen_Entry()throws Throwable{
+		clickButton(Page_Object_Manager.getInstance().getHome_Page().OnScreenEntry());
+		log.info("On Screen Entry is selected");
+	}
+	@When("Enter Linkedin URl")
+	public void Enter_Linkedin_URl() throws Throwable{
+		enterData(Page_Object_Manager.getInstance().getHome_Page().Get_Linkedin_Url(),
+				retrieveDataFromJson(
+						System.getProperty("user.dir") + "\\src\\main\\resources\\Test_Data\\Json_Data.json",
+						"Upload_File", "Linkedin_URL"));
+		log.info("Linkedin Url is entered Successfully");
+
+	}
+	}

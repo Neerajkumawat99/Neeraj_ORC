@@ -83,6 +83,18 @@ public class Home_Page extends Global{
 	@FindBy(xpath = "//button[contains(text(),'Refresh')]")
 	private WebElement refresh_Button;
 
+	@FindBy(xpath = "//button[contains(@title,'New Contact')]")
+	private WebElement GetNewContactLabel;
+
+	@FindBy(xpath = "//label[contains(text(),\'HIGH\')]/input")
+	private WebElement SelectPriority;
+
+	@FindBy(xpath = "//input[@placeholder='LinkedIn Url']")
+	private WebElement Get_Linkedin_Url;
+
+	@FindBy(xpath = "//label[contains(text(),\'On Screen Entry\')]")
+	private WebElement OnScreenEntry ;
+
 	public WebElement getLogout_Text_Field() {
 		return logout_Text_Field;
 	}
@@ -99,8 +111,25 @@ public class Home_Page extends Global{
 		return create_New_Job_Button;
 	}
 
+	public WebElement GetNewContactLabel(){
+		return GetNewContactLabel;
+	}
+
+	public WebElement SelectPriority(){
+		return  SelectPriority;
+	}
+
 	public WebElement getJob_Name_Text_Field() {
 		return job_Name_Text_Field;
+	}
+
+	public WebElement Get_Linkedin_Url()
+	{
+		return Get_Linkedin_Url;
+	}
+	public WebElement OnScreenEntry()
+	{
+		return OnScreenEntry;
 	}
 
 	public WebElement getComments_Text_Field() {
