@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="15.392574">
-    <testcase classname="Validate New Contact UI job upload" name="To Validate SalesIntel Orchestration Login Functionality" time="5.367188">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="18.756253">
+    <testcase classname="Validate New Contact UI job upload" name="To Validate SalesIntel Orchestration Login Functionality" time="6.512864">
         <system-out><![CDATA[Given Launch The URL........................................................passed
 When Enter The User Name....................................................passed
 And Enter The Password......................................................passed
@@ -8,7 +8,7 @@ And Click On Remember Me Check Box..........................................pass
 And Click On Submit Button..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validate New Contact UI job upload" name="To Validate SalesIntel Orchestration New Contact Functionality" time="10.025386">
+    <testcase classname="Validate New Contact UI job upload" name="To Validate SalesIntel Orchestration New Contact Functionality" time="12.243389">
         <system-out><![CDATA[When Click On Job Label.....................................................passed
 And Click On New Contact Button.............................................passed
 And Click On Create New Job.................................................passed
@@ -16,6 +16,7 @@ And Enter Job Name In New Contact Job Page..................................pass
 And Select Priority.........................................................passed
 And Select On Screen Entry..................................................passed
 And Enter Linkedin URl......................................................passed
+And Scroll Up...............................................................passed
 And Click On Submit Button..................................................passed
 ]]></system-out>
     </testcase>

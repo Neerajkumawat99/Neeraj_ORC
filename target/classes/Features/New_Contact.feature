@@ -19,5 +19,7 @@ Feature: Validate New Contact UI job upload
     And Select Priority
     And Select On Screen Entry
     And Enter Linkedin URl
+    And Scroll Up
     And Click On Submit Button
+
 #    And Click On Submit Button In Reverify Contact Job Page

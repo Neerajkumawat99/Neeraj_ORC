@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-07-05T13:35:06.568Z",
+        "start_timestamp": "2023-07-05T14:05:17.509Z",
         "before": [
           {
             "result": {
-              "duration": 3655800,
+              "duration": 3368600,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 1137400,
+              "duration": 1952300,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5050087800,
+              "duration": 5870900100,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 121520600,
+              "duration": 260445700,
               "status": "passed"
             },
             "line": 6,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 55710800,
+              "duration": 120221700,
               "status": "passed"
             },
             "line": 7,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 45038700,
+              "duration": 108610500,
               "status": "passed"
             },
             "line": 8,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 45801000,
+              "duration": 90395700,
               "status": "passed"
             },
             "line": 9,
@@ -104,11 +104,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-07-05T13:35:11.993Z",
+        "start_timestamp": "2023-07-05T14:05:24.163Z",
         "before": [
           {
             "result": {
-              "duration": 392200,
+              "duration": 1803400,
               "status": "passed"
             },
             "match": {
@@ -123,7 +123,7 @@
         "after": [
           {
             "result": {
-              "duration": 618600,
+              "duration": 725000,
               "status": "passed"
             },
             "match": {
@@ -136,7 +136,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1371655600,
+              "duration": 3108965700,
               "status": "passed"
             },
             "line": 15,
@@ -148,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 85908300,
+              "duration": 107925900,
               "status": "passed"
             },
             "line": 16,
@@ -160,7 +160,7 @@
           },
           {
             "result": {
-              "duration": 5096530800,
+              "duration": 5165507900,
               "status": "passed"
             },
             "line": 17,
@@ -172,7 +172,7 @@
           },
           {
             "result": {
-              "duration": 2104134400,
+              "duration": 2196761700,
               "status": "passed"
             },
             "line": 18,
@@ -184,7 +184,7 @@
           },
           {
             "result": {
-              "duration": 44410900,
+              "duration": 122788900,
               "status": "passed"
             },
             "line": 19,
@@ -196,7 +196,7 @@
           },
           {
             "result": {
-              "duration": 60184200,
+              "duration": 150677100,
               "status": "passed"
             },
             "line": 20,
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 148804200,
+              "duration": 193590800,
               "status": "passed"
             },
             "line": 21,
@@ -220,10 +220,22 @@
           },
           {
             "result": {
-              "duration": 1105666300,
+              "duration": 14203700,
               "status": "passed"
             },
             "line": 22,
+            "name": "Scroll Up",
+            "match": {
+              "location": "Steps.Scroll_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1163829800,
+              "status": "passed"
+            },
+            "line": 23,
             "name": "Click On Submit Button",
             "match": {
               "location": "Steps.click_On_Submit_Button()"

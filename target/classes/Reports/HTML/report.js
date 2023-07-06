@@ -160,6 +160,16 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
+  "name": "Scroll Up",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.Scroll_up()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
   "name": "Click On Submit Button",
   "keyword": "And "
 });

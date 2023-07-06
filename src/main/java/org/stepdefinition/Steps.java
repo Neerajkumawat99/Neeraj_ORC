@@ -435,12 +435,18 @@ public class Steps extends Global {
 		log.info("On Screen Entry is selected");
 	}
 	@When("Enter Linkedin URl")
-	public void Enter_Linkedin_URl() throws Throwable{
+	public void Enter_Linkedin_URl() throws Throwable {
 		enterData(Page_Object_Manager.getInstance().getHome_Page().Get_Linkedin_Url(),
 				retrieveDataFromJson(
 						System.getProperty("user.dir") + "\\src\\main\\resources\\Test_Data\\Json_Data.json",
 						"Upload_File", "Linkedin_URL"));
 		log.info("Linkedin Url is entered Successfully");
+	}
 
+	@When("Scroll Up")
+		public void Scroll_up() throws Throwable{
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,250)", "Submit");
+		}
 	}
-	}
+
