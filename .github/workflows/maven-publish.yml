@@ -74,7 +74,7 @@ jobs:
           username: ${{secrets.MAIL_USERNAME}}
           password: ${{secrets.MAIL_PASSWORD}}
           subject: Sales Intel Orchestration CI/CD Automation Result
-          to: neeraj.kumawat@astegic.in
+          to:  neeraj.kumawat@astegic.in
           from: pneerajkumawat@gmail.com
           html_body: |
                   <html>
