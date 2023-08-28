@@ -157,7 +157,7 @@ public class Steps extends Global {
 		Thread.sleep(2000);
 		clickButton(Page_Object_Manager.getInstance().getHome_Page().getChoose_File_Button());
 		Thread.sleep(2000);
-		uploadfilefromlocal(System.getProperty("user.dir") + "\\src\\main\\resources\\CSV_File_Store\\TestCase1.csv");
+		uploadfilefromlocal(System.getProperty("user.dir") + "\\src\\main\\resources\\CSV_File_Store\\TestCase2.csv");
 		log.info("Uploaded The CSV File From Local Storage");
 	}
 
@@ -235,7 +235,7 @@ public class Steps extends Global {
 	public void enter_The_Search_Contact_Deatils_From_CSV_File() throws Throwable {
 		Thread.sleep(2000);
 		String readDataFromCSV = ReadDataFromCSV(
-				System.getProperty("user.dir") + "\\src\\main\\resources\\CSV_File_Store\\TestCase1.csv", "@imf.org",
+				System.getProperty("user.dir") + "\\src\\main\\resources\\CSV_File_Store\\TestCase2.csv", "@rosecrance.org",
 				1);
 		System.out.println("Data Received From CSV File:" + readDataFromCSV);
 		enterData(Page_Object_Manager.getInstance().getHome_Page().getSearch_Text_Input_Field(), readDataFromCSV);

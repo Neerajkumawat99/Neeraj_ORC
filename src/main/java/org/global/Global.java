@@ -27,7 +27,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+import org.openqa.selenium.edge.EdgeDriver;
 import com.opencsv.CSVReader;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -46,8 +46,9 @@ public class Global {
 
 	public WebDriver getDriver() {
 		if (driver == null) {
-			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+
 		}
 		return driver;
 	}

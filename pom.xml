@@ -70,8 +70,9 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.141.59</version>
+			<version>4.11.0</version>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/net.sourceforge.jexcelapi/jxl -->
 		<dependency>
 			<groupId>net.sourceforge.jexcelapi</groupId>
@@ -124,5 +125,10 @@
 			<version>1.18.24</version>
 			<optional>true</optional>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>4.10.0</version>
+        </dependency>
+    </dependencies>
 </project>
