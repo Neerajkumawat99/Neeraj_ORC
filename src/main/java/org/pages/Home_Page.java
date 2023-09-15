@@ -95,6 +95,9 @@ public class Home_Page extends Global{
 	@FindBy(xpath = "//label[contains(text(),\'On Screen Entry\')]")
 	private WebElement OnScreenEntry ;
 
+	@FindBy(xpath = "//span[contains(text(),' Testcase 28-8-2023 04:16:03')]/../../../td[6]/div\n")
+	private WebElement job_percentage;
+
 	public WebElement getLogout_Text_Field() {
 		return logout_Text_Field;
 	}
@@ -109,6 +112,11 @@ public class Home_Page extends Global{
 
 	public WebElement getCreate_New_Job_Button() {
 		return create_New_Job_Button;
+	}
+
+	public WebElement job_percentage()
+	{
+		return job_percentage;
 	}
 
 	public WebElement GetNewContactLabel(){
@@ -207,5 +215,7 @@ public class Home_Page extends Global{
 	public WebElement getRefresh_Button() {
 		return refresh_Button;
 	}
+
+
 
 }

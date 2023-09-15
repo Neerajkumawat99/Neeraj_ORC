@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+//import jdk.internal.org.jline.terminal.TerminalBuilder;
+import io.cucumber.java.en.And;
+import org.apache.http.cookie.ClientCookie;
 import org.apache.log4j.Logger;
 import org.global.Global;
 import org.json.simple.parser.ParseException;
@@ -21,6 +24,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 //import sun.jvm.hotspot.debugger.Page;
+
+
 
 public class Steps extends Global {
 	public static WebDriver driver;
@@ -235,7 +240,7 @@ public class Steps extends Global {
 	public void enter_The_Search_Contact_Deatils_From_CSV_File() throws Throwable {
 		Thread.sleep(2000);
 		String readDataFromCSV = ReadDataFromCSV(
-				System.getProperty("user.dir") + "\\src\\main\\resources\\CSV_File_Store\\TestCase2.csv", "@rosecrance.org",
+				System.getProperty("user.dir") + "\\src\\main\\resources\\CSV_File_Store\\TestCase2.csv", "@pebblebeach.com",
 				1);
 		System.out.println("Data Received From CSV File:" + readDataFromCSV);
 		enterData(Page_Object_Manager.getInstance().getHome_Page().getSearch_Text_Input_Field(), readDataFromCSV);
@@ -326,7 +331,7 @@ public class Steps extends Global {
 		log.info("Validated The Toast Message After The CSV File Upload");
 	}
 
-	@When("Click On Task Label")
+	@And("Click On Task Label")
 	public void click_On_Task_Label() {
 		try {
 			Thread.sleep(2000);
@@ -338,10 +343,17 @@ public class Steps extends Global {
 		log.info("Clicked On Task Label");
 	}
 
+	@And("Click on Refresh Button")
+	public void click_on_refresh_button() throws Throwable
+	 {
+		Thread.sleep(300000);
+		clickButton(Page_Object_Manager.getInstance().getHome_Page().getRefresh_Button());
+	}
+
 	@When("Click On Latest Uploaded CSV File")
 	public void click_On_Latest_Uploaded_CSV_File() throws Throwable {
 		System.out.println(job_Name);
-		Thread.sleep(600000);
+		Thread.sleep(500000);
 
 		clickButton(Page_Object_Manager.getInstance().getHome_Page().getRefresh_Button());
 		Thread.sleep(2000);
@@ -448,5 +460,42 @@ public class Steps extends Global {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,250)", "Submit");
 		}
-	}
 
+
+		@When("Click On Latest Uploaded Job name")
+	public void submit_csv() throws Throwable
+	{
+
+	}
+//	@When("Click On Latest Uploaded Job name")
+//	public void click_On_Latest_Uploaded_Job_name() throws Throwable {
+//        clickButton(Page_Object_Manager.getInstance().getHome_Page().getRefresh_Button());
+//        int JobPercentageNumber;
+//
+//        do {
+//            String JobPercentage;
+//			WebDriverWait webDriverWait = new WebDriverWait(driver, 120);
+//			webDriverWait.until(ExpectedConditions.visibilityOf(driver
+//					.findElement(By.xpath("//a[contains(text(),'" + job_Name + "')]//following::td//child::button"))));
+//			Thread.sleep(2000);
+//			clickButton(
+//					driver.findElement(By.xpath("//a[contains(text(),'" + job_Name + "')]//following::td//child::button")));
+//
+//			Thread.sleep(10000);
+//			JobPercentage=Page_Object_Manager.getInstance().getHome_Page().job_percentage().getText();
+//			            JobPercentageNumber = Integer.parseInt(JobPercentage.replaceAll("[-+.^:%,]", ""));
+//			System.out.println("Job Percentage is"+JobPercentageNumber);
+//			        }
+//		while (JobPercentageNumber <= 100);
+//				System.out.println("Job is completed 100%");
+
+//		}
+//		else {
+//			Thread.sleep(600000);
+//			clickButton(Page_Object_Manager.getInstance().getHome_Page().getRefresh_Button());
+//
+		}
+
+//    }
+//}
+//

@@ -40,10 +40,17 @@ Feature: Validate Application SalesIntel Orchestration Upload And Verify The Det
   	When Click On Close Button In Process Status Information
 
   @First @Sanity
-  Scenario: To Validate SalesIntel Orchestration Task Functionality
-  	When Click On Task Label
-  	And Click On Latest Uploaded CSV File
-  	Then Validate The Toast Message
+  Scenario: To Validate SalesIntel Orchestration Task/Job Functionality
+  	And Click On Task Label
+	And Click on Refresh Button
+	And Click On Latest Uploaded CSV File
+#    And Click On Latest Uploaded Job name
+	Then Validate The Toast Message
+	And Click On Job Label
+	And Click On Reverify Contact Button
+
+
+
 
   @First @Sanity
   Scenario: To Validate SalesIntel Orchestration Search Activity After Submitting the Tasks and 5 minutes of wait Functionality
